@@ -1,0 +1,62 @@
+body{
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    border: 0;
+}
+h1{
+    text-align: center;
+    text-shadow: 2px 2px 14px rgba(6, 4, 92, 0.822);
+}
+div{
+    border-radius: 8px;
+    /* background-color: #c7c6dc; */
+    
+}
+#personal-information{
+    text-shadow: 2px 2px 5px #5a363e;
+    background-color:#e9a6b6 ;
+}
+#contact-information{
+    background-color:#bf96b0 ;
+    text-shadow: 2px 2px 5px #503345;
+}
+#studies-information{
+    background-color:#7e89a9;
+    text-shadow:2px 2px 5px #53618d;
+}
+input{
+    border: 1.5px black solid;
+    border-radius: 18px;
+    background-color: antiquewhite;
+    width: 250px;
+    height: 22px;
+    
+}
+h3{
+    text-align: center;
+}
+#personal-information , #contact-information , #studies-information{
+    width: 450px;
+    /* border: 1px rgb(39, 38, 38) solid; */
+    font-size: 20px;
+    margin: 20px 33%;
+    line-height: 35px;
+    text-indent: 5px;
+    padding-left: 9px;
+    border: 1.5px black solid;
+}
+.in1{
+    margin-left: 45%;
+}
+.input , .in1 {
+    width: auto;
+}
+img{
+    width: 100px;
+}
+.butifull{
+    background-size: cover;
+    background-image: url("moon.jpg");
+
+}
